@@ -7,13 +7,16 @@ import ReactPlayer from 'react-player';
 
 function App() {
   const arrayOfHeroes = ["Spiderman", "Thor", "Hulk"];
-  /* fetch("https://pokeapi.co/api/v2/pokemon")
+  /*
+  EXAMPLE OF FETCHING DATA FROM AN API (NOT RELATED TO THE LESSON) 
+  fetch("https://pokeapi.co/api/v2/pokemon")
     .then((response) => {
       return response.json()
     })
     .then((data) => {
       console.log(data.results);
-    }) */
+    }) 
+    */
   return (
     <>
       <ReactPlayer url="https://vimeo.com/channels/top/22439234" playing />

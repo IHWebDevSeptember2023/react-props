@@ -1,3 +1,4 @@
+// example of a functional component using function syntax
 function HeroSection (){
     return (
         <div>
